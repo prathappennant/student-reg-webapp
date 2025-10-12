@@ -21,16 +21,16 @@
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
 
-    <distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<url>http://3.6.186.231:8081/repository/student-reg-webapp-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://3.6.186.231:8081/repository/student-reg-webapp-snapshots/</url>
-		</snapshotRepository>
-    </distributionManagement>
+<distributionManagement>
+ <repository>
+	<id>nexus</id> 
+	<url>http://35.154.119.27:8081/repository/student-reg-webapp-release/</url>
+ </repository>
+ <snapshotRepository>
+	<id>nexus</id>
+	<url>http://35.154.119.27:8081/repository/student-reg-webapp-snapshots/</url>
+ </snapshotRepository>
+</distributionManagement>
 
 	<dependencies>
 		<dependency>

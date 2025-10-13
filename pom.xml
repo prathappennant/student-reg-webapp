@@ -26,7 +26,6 @@
 	<id>nexus</id> 
 	<url>http://35.154.119.27:8081/repository/student-reg-webapp-release/</url>
  </repository>
- 
  <snapshotRepository>
 	<id>nexus</id>
 	<url>http://35.154.119.27:8081/repository/student-reg-webapp-snapshots/</url>

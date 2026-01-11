@@ -1,0 +1,10 @@
+services:
+  studentregwebapp:
+    image: rushitechnologiesbalaji/student-reg-webapp:IMAGE_TAG
+    ports:
+    - 9090:8080
+    networks:
+    - studentregnetwork
+networks:
+  studentregnetwork:
+    driver: bridge
